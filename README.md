@@ -1,89 +1,88 @@
 # Excalidraw Scripts Collection
 
-一个面向 `Obsidian + Excalidraw` 的脚本整理仓库。
+This repository is a curated script archive for `Obsidian + Excalidraw`.
 
-这个仓库将常用 Excalidraw 脚本按功能分类归档，方便检索、复制、预览和二次整理。当前收录 `86` 个脚本源码文件，并保留对应的 `SVG` 预览图。
+It organizes commonly used Excalidraw scripts by function so they are easier to browse, copy, preview, and maintain. The current collection includes `86` script source files together with their matching `SVG` preview images.
 
-## 项目定位
+## Project Scope
 
-- 适合把常用 Excalidraw 脚本集中备份到 GitHub
-- 适合按功能查找脚本，而不是在零散目录里翻找
-- 适合做个人脚本库、教学演示库、参考资料库
+- Good for backing up commonly used Excalidraw scripts to GitHub
+- Good for finding scripts by category instead of searching through scattered folders
+- Good for building a personal script library, teaching/demo library, or reference archive
 
-这不是一个独立插件项目，而是一个脚本资源集合。仓库中的大部分脚本运行环境依赖：
+This is not a standalone plugin project. Most scripts in this repository depend on the following runtime environment:
 
 - Obsidian
 - Excalidraw for Obsidian
 - ExcalidrawAutomate / Script Engine
 
-## 目录结构
+## Directory Structure
 
 ```text
 Excalidraw/
 └─ Scripts/
-   ├─ 00_常用舒适度
-   ├─ 01_选择与批量处理
-   ├─ 02_排版与布局
-   ├─ 03_连接线与箭头
-   ├─ 04_文字处理
-   ├─ 05_样式与颜色
-   ├─ 06_Obsidian链接与嵌入
-   ├─ 07_图片图标素材
-   ├─ 08_思维导图
-   ├─ 09_演示导出
-   ├─ 10_学习卡片
-   └─ 90_试用中
+   ├─ 00_Common_Utilities
+   ├─ 01_Selection_and_Batch
+   ├─ 02_Layout_and_Alignment
+   ├─ 03_Lines_and_Arrows
+   ├─ 04_Text_Tools
+   ├─ 05_Style_and_Color
+   ├─ 06_Obsidian_Links_and_Embeds
+   ├─ 07_Images_and_Icons
+   ├─ 08_Mind_Maps
+   ├─ 09_Presentation_and_Export
+   ├─ 10_Study_Cards
+   └─ 90_Experimental
 ```
 
-说明：
+Notes:
 
-- `*.md`：脚本源码与说明
-- `*.svg`：脚本预览图或配套示意图
+- `*.md`: script source and usage notes
+- `*.svg`: script preview image or supporting visual
 
-## 分类总览
+## Category Overview
 
-| 分类 | 数量 |
+| Category | Count |
 | --- | ---: |
-| 00_常用舒适度 | 10 |
-| 01_选择与批量处理 | 7 |
-| 02_排版与布局 | 15 |
-| 03_连接线与箭头 | 8 |
-| 04_文字处理 | 10 |
-| 05_样式与颜色 | 12 |
-| 06_Obsidian链接与嵌入 | 8 |
-| 07_图片图标素材 | 2 |
-| 08_思维导图 | 2 |
-| 09_演示导出 | 5 |
-| 10_学习卡片 | 3 |
-| 90_试用中 | 4 |
+| 00_Common_Utilities | 10 |
+| 01_Selection_and_Batch | 7 |
+| 02_Layout_and_Alignment | 15 |
+| 03_Lines_and_Arrows | 8 |
+| 04_Text_Tools | 10 |
+| 05_Style_and_Color | 12 |
+| 06_Obsidian_Links_and_Embeds | 8 |
+| 07_Images_and_Icons | 2 |
+| 08_Mind_Maps | 2 |
+| 09_Presentation_and_Export | 5 |
+| 10_Study_Cards | 3 |
+| 90_Experimental | 4 |
 
-## 使用方式
+## How To Use
 
-1. 安装 Obsidian。
-2. 安装并启用 `Excalidraw` 插件。
-3. 在支持脚本的环境中，将需要的脚本 `md` 文件放入你的脚本目录，或直接复制脚本内容到自己的 Excalidraw Script 文件中。
-4. 在 Obsidian / Excalidraw 中运行对应脚本。
+1. Install Obsidian.
+2. Install and enable the `Excalidraw` plugin.
+3. In a script-enabled environment, place the required `md` script file into your script directory, or copy the script content directly into your own Excalidraw Script file.
+4. Run the corresponding script inside Obsidian / Excalidraw.
 
-不同脚本对 Excalidraw 版本、联网能力或额外插件的要求不同，请先阅读对应文件头部注释。
+Different scripts may require different Excalidraw versions, network access, or extra plugins. Please read the header comments in each script file first.
 
-## 来源与版权说明
+## Source and Copyright Notes
 
-本仓库主要是对 Excalidraw 社区脚本的分类整理与归档，部分内容明显来自上游项目与社区贡献脚本。已知来源包括但不限于：
+This repository mainly republishes and reorganizes community Excalidraw scripts. Some content clearly comes from upstream projects and community-contributed scripts. Known sources include, but are not limited to:
 
 - `zsviczian/obsidian-excalidraw-plugin`
-- 相关社区脚本与演示资源
+- Related community scripts and demo resources
 
-因此：
+Therefore:
 
-- 原脚本作者的署名、许可和附带说明应被保留
-- 若某个脚本文件本身带有单独的许可或来源说明，以该说明为准
-- 本仓库新增的目录整理、说明文档与归档结构，仅代表整理工作本身
+- Original author credits, licenses, and bundled notices should be preserved
+- If a script file includes its own license or source note, that file-level note takes priority
+- The added directory organization, documentation, and archive structure in this repository only represent the curation work itself
 
-更具体的发布说明见 `NOTICE.md`。
+For more specific release notes, see `NOTICE.md`.
 
-## 开源协议
+## License
 
-本仓库根级别附带 `AGPL-3.0` 协议文本，用于覆盖本仓库的整理层与公开发布说明。
+This repository includes the `AGPL-3.0` license text at the root level to cover the curation layer and the public release notes of this repository.
 
-如果某些脚本来自第三方并带有单独的原始许可、署名或使用条件，则应优先遵守对应上游说明。
-
+If any script comes from a third party and includes its own original license, attribution, or usage requirements, the upstream terms should be followed first.
